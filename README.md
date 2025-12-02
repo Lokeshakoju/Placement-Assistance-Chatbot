@@ -1,23 +1,57 @@
-# 🤖 RAG Chatbot for Placement Assistance
+📌 Placement Assistance Platform
 
-A custom Retrieval-Augmented Generation (RAG) based chatbot designed to assist students with placement-related queries by using real data from previous student records (2023–2024). Built to provide reliable, domain-specific responses across multiple topics like eligibility, company criteria, test patterns, and more.
----
+An AI-powered RAG-based chatbot designed to deliver accurate, reliable, and context-aware placement-related information to students. This project centralizes scattered placement data and provides instant answers using modern NLP, vector search, and generative AI.
 
-## 🔍 Overview
+⸻
 
-This chatbot leverages RAG (Retrieval-Augmented Generation) to improve the accuracy of answers by grounding responses in real placement data. It is intended to be used by engineering students and maintained by future batches to scale knowledge sharing over the years.
+🚀 Project Overview
 
----
+The Comprehensive Placement Assistance Platform is an intelligent chatbot system built to simplify placement preparation for students. Instead of manually searching multiple websites, blogs, and forums, students can ask natural language questions and receive precise, verified answers instantly.
 
-## 💡 Key Features
+This system integrates:
+	•	Retrieval-Augmented Generation (RAG)
+	•	Pinecone vector database
+	•	Multilingual-e5-large embeddings
+	•	BGE Reranker for improved relevance
+	•	Llama 3.1 8B instruct model
+	•	Flutter-based UI
+	•	Python (Flask) backend
 
-- 💬 Answers placement-related queries based on real student experiences  
-- 📄 Integrates a custom dataset of 2023–2024 student placement info  
-- 🧠 Uses vector embeddings for context-aware retrieval  
-- 📚 RAG architecture improves factual accuracy over generic LLMs  
-- 🌐 Accessible through a simple user-friendly interface  
-- 🧪 Designed to be maintainable by future college batches
+It delivers structured company information such as roles, eligibility, interview rounds, packages, and preparation strategies.
 
----
+🧠 Tech Stack
+Frontend: Flutter
+Backend: Python, Flask
+ML/NLP: Llama 3.1, Multilingual-e5-large, BGE Reranker
+Database: Pinecone (vector search)
 
+⸻
 
+🏗️ Architecture
+	1.	User Query → Preprocessing
+	2.	Semantic Retrieval (Pinecone)
+	3.	Reranking (BGE)
+	4.	Response Generation (Llama 3.1)
+	5.	Output delivered through Flutter UI
+
+⸻
+
+⭐ Key Features
+	•	AI-based query understanding (NER, query augmentation)
+	•	High-accuracy document retrieval using Pinecone
+	•	Context-aware reranking with BGE Reranker
+	•	Reliable answer generation using Llama 3.1 8B
+	•	Clean and interactive Flutter UI
+	•	Modular and scalable backend in Python (Flask)
+
+⸻
+
+📂 Dataset Labels
+	•	Company Overview
+	•	Role Description
+	•	Eligibility Criteria
+	•	Interview Process
+	•	Interview Rounds
+	•	Additional Tips
+
+A robust, AI-driven placement assistant that delivers accurate, well-structured company information instantly using modern RAG techniques.
